@@ -1,13 +1,12 @@
 import Header from './components/Header'
-import Notification from './components/NotificationButton'
+import SalesCard from './components/Main/SalesCard'
+
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Hello World</h1>
-      <br />
-      <Notification />
+      <SalesCard />
     </>
   )
 }
